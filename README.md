@@ -37,18 +37,17 @@ Claim mode **refuses to start** if `COLLECT` is empty.
 COLLECT = "0xYourWalletHere"
 ```
 
-Set **`RPC`** to any working BSC HTTP endpoint (chain id `56`). Default is a public Binance seed:
+Set **`RPC`** to any working BSC HTTP endpoint (chain id `56`). Default is PublicNode:
 
 ```python
-RPC = "https://bsc-dataseed.binance.org"
+RPC = "https://bsc.publicnode.com"
 ```
 
 Other public options if that one is slow / rate-limited:
 
 ```text
+https://bsc-dataseed.binance.org
 https://bsc-dataseed1.binance.org
-https://bsc-dataseed2.binance.org
-https://bsc.publicnode.com
 https://rpc.ankr.com/bsc
 ```
 

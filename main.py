@@ -23,7 +23,7 @@ from web3 import AsyncHTTPProvider, AsyncWeb3, Web3
 # =========================
 MODE = "claim"  # check | claim
 THREADS = 20
-RPC = "https://bsc-dataseed.binance.org"  # BSC public RPC — swap if rate-limited
+RPC = "https://bsc.publicnode.com"  # BSC public RPC — swap if rate-limited
 COLLECT = ""  # YOUR wallet — receives claimed $short (required for claim)
 
 CLAIM_PROXY = "0x0C348f3957d3426e18507d3FF105e9825fC80BA0"
