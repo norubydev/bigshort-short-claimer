@@ -1,0 +1,6 @@
+curl_cffi
+loguru
+tenacity
+eth-account
+eth-abi
+web3

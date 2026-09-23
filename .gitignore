@@ -1,0 +1,12 @@
+logs/
+results/
+debug/
+__pycache__/
+*.log
+*.pyc
+.venv/
+.env
+.env.*
+
+accounts/*
+!accounts/*.example.txt
