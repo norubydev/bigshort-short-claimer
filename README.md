@@ -37,6 +37,23 @@ Claim mode **refuses to start** if `COLLECT` is empty.
 COLLECT = "0xYourWalletHere"
 ```
 
+Set **`RPC`** to any working BSC HTTP endpoint (chain id `56`). Default is a public Binance seed:
+
+```python
+RPC = "https://bsc-dataseed.binance.org"
+```
+
+Other public options if that one is slow / rate-limited:
+
+```text
+https://bsc-dataseed1.binance.org
+https://bsc-dataseed2.binance.org
+https://bsc.publicnode.com
+https://rpc.ankr.com/bsc
+```
+
+For big runs a private / paid BSC node is better. RPC is used for claim / collect / gas only — airdrop API goes through proxies (or direct IP).
+
 ## Run
 
 ```bash
